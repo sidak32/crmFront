@@ -88,6 +88,14 @@ const LoginPage = () => {
 
           <div className="p-10 relative">
             <div className="space-y-8 relative z-10">
+              {/* 🔒 Header */}
+              <div className="text-center mb-10">
+                <h2 className="text-2xl font-extrabold text-gray-900">
+                  🔒 Welcome Back Admin
+                </h2>
+                <p className="mt-2 text-sm text-gray-600">Sign in to CRM</p>
+              </div>
+
               {/* ✅ Success Message */}
               {success && (
                 <div className="flex items-center gap-3 p-4 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg text-green-700">
